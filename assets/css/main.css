@@ -2295,3 +2295,9 @@ button,
 .nome-pagina{
   color:#f56a6a;
 }
+
+.object{
+  display: block;
+  max-width: 416px;
+  max-height: 256px;
+}
