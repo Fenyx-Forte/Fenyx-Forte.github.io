@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>spreadsheet in laptop and desktop</caption>
+  <note>spreadsheet in laptop and desktop icons</note>
+  <place/>
+  <categories>
+    <category value="spreadsheet"/>
+    <category value="laptop"/>
+    <category value="document"/>
+    <category value="account"/>
+    <category value="software"/>
+    <category value="report"/>
+    <category value="analysis"/>
+    <category value="calculation"/>
+    <category value="data"/>
+    <category value="database"/>
+    <category value="audit"/>
+    <category value="diagram"/>
+    <category value="statistics"/>
+    <category value="infographic"/>
+    <category value="documents"/>
+    <category value="files"/>
+    <category value="financial"/>
+    <category value="desktop"/>
+    <category value="folder"/>
+    <category value="management"/>
+    <category value="download"/>
+    <category value="accountant"/>
+    <category value="economy"/>
+    <category value="finance"/>
+    <category value="planning"/>
+    <category value="vector"/>
+    <category value="illustration"/>
+    <category value="design"/>
+  </categories>
+</comment>
