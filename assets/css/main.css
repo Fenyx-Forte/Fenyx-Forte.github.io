@@ -2152,6 +2152,16 @@ button,
       width: 300px;
       height: 300px;
     }
+
+    .banner .image.habilidades{
+      margin: 0 2em 0 0;
+      -moz-object-fit: contain;
+      -webkit-object-fit: contain;
+      -ms-object-fit: contain;
+      object-fit: contain;
+      width: 170px;
+      height: 170px;      
+    }
     .banner .image img {
       height: 100%;
       -moz-object-fit: cover;
