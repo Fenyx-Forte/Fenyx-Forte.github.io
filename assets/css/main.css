@@ -2023,11 +2023,10 @@ button,
     #sidebar {
       box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
       height: 100%;
-      /*
       left: 0;
       position: fixed;
       top: 0;
-      z-index: 10000;*/ }
+      z-index: 10000; }
       #sidebar.inactive {
         box-shadow: none; }
       #sidebar > .inner {
@@ -2205,7 +2204,20 @@ button,
         height: 25em;
         max-height: 50vh;
         min-height: 18em;
-        width: 100%; } }
+        width: 100%; }
+
+      .banner .image.habilidades{
+        height: 16em;
+        max-height: 35vh;
+        min-height: 12em;
+        width: 100%;} 
+        
+      .banner .image.image.my-pics{
+        height: 18em;
+        max-height: 40vh;
+        min-height: 14em;
+        width: 100%;} }
+
   @media screen and (orientation: portrait) and (max-width: 480px) {
     .banner .image {
       max-height: 35vh; } }
