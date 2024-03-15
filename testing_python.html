@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>LeetCode SQL</title>
+		<title>Testing Python</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -37,25 +37,18 @@
 								<section class="banner">
 									<div class="content">
 										<header>
-											<h1>LeetCode<br/>
-                                                SQL
+											<h1>Testing<br/>
+                                                Python
 											</h1>
 										</header>
 										<br/>
 										<br/>
 										<p>
-											Minhas soluções de questões de SQL da plataforma LeetCode.
-											<br>
-											<br/>
-											<br/>
-											Veja as questões:
-											<a href="https://leetcode.com/" target="_blank" rel="noreferrer">
-												LeetCode
-											</a>
+											Meu repositório de como criar testes no Python.
 										</p>
 									</div>
 									<span class="image object">
-										<img src="images/sql3.jpg" alt="" />
+										<img src="images/python3.jpg" alt="" />
 									</span>
 								</section>
 
@@ -67,7 +60,7 @@
 									<div class ="toc-wrapper">
 										<div class="toc-header">
 											<h4 class="toc-heading">
-												LEETCODE SQL
+												TESTING PYTHON
 											</h4>
 										</div>
 										<div>
@@ -87,6 +80,11 @@
 													Conteúdo Abordado
 												</a>
 												</li>
+                                                <li class="toc-list-item">
+                                                    <a href="#comoutilizar">
+                                                        Como Utilizar
+                                                    </a>
+                                                </li>
 											</ol>
 										</div>
 									</div>
@@ -98,8 +96,8 @@
 								</header>
 
                                 <p>
-                                    <a href="https://github.com/Fenyx-Forte/LeetCode-SQL" target= "_blank" rel="noreferrer">
-                                        LeetCode SQL
+                                    <a href="https://github.com/Fenyx-Forte/Testing-Python" target= "_blank" rel="noreferrer">
+                                        Testing Python
                                     </a>
                                 </p>
 							</section>
@@ -111,11 +109,27 @@
 
                                 <ul>
                                     <li>
-                                        MySQL
-                                    </li>							
+                                        Python 3
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        pytest
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        pytest-html
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        requests
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        pre-commit
+                                    </li>	
                                 </ul>
 							</section>
-
+                            <!-- Section -->
 							<section>
 								<header class="major" id="conteudo">
 									<h2>Conteúdo Abordado</h2>
@@ -123,35 +137,39 @@
 
                                 <ul>
                                     <li>
-                                        Base completa SQL
+                                        Como criar testes utilizando pytest
                                     </li>
-									<br/>
-									<li>
-                                        Joins
+                                    <br/>
+                                    <li>
+                                        Como rodar todos os testes de maneira automática
                                     </li>
-									<br/>
-									<li>
-                                        Aggregate functions
-                                    </li>	
-									<br/>
-									<li>
-                                        Functions MySQL
+                                    <br/>
+                                    <li>
+                                        Como criar testes com mock
                                     </li>
-									<br/>
-									<li>
-                                        Wildcards
+                                    <br/>
+                                    <li>
+                                        Como criar um relatorio dos testes automaticamente utilizando pytest-html
                                     </li>
-									<br/>
-									<li>
-                                        Subqueries
-                                    </li>
-									<br/>
-									<li>
-                                        CTE
-                                    </li>	
                                 </ul>
 							</section>
-
+                            <!-- Section -->
+							<section>
+								<header class="major" id="comoutilizar">
+									<h2>Como Utilizar</h2>
+								</header>
+                                <h4>Pré-Requisitos</h4>
+                                <ul>
+                                    <li>
+                                        pip install -r requirements.txt
+                                    </li>
+                                </ul>
+                                <h4>Executar o Script</h4>
+                                <p>
+                                    Dentro da raiz do projeto execute o seguinte comando: <br/>
+                                    pytest -c tests/pytest.ini
+                                </p>
+							</section>
 						</div>
 					</div>
 
@@ -165,7 +183,7 @@
 										<h2>MENU</h2>
 									</header>
 									<ul>
-										<li class="nome-pagina">LEETCODE SQL</li>
+										<li class="nome-pagina">TESTING PYTHON</li>
 										<br/>
 										<br/>
 										<li><a href="index.html">HOME</a></li>
