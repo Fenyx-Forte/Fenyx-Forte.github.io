@@ -118,7 +118,23 @@
                                     <br/>
                                     <li>
                                         jinja2
-                                    </li>				
+									</li>
+									<br/>
+                                    <li>
+                                        pytest
+                                    </li>
+									<br/>
+                                    <li>
+                                        pytest-html
+                                    </li>
+									<br/>
+                                    <li>
+                                        logging
+                                    </li>
+									<br/>
+                                    <li>
+                                        pre-commit
+                                    </li>
                                 </ul>
 							</section>
                             <!-- Section -->
@@ -143,6 +159,10 @@
                                     <li>
                                         Como usar templates
                                     </li>
+									<br/>
+                                    <li>
+                                        Testes das funcoes utilizadas com o pytest
+                                    </li>
                                 </ul>
 							</section>
                             <!-- Section -->
@@ -153,12 +173,8 @@
                                 <h4>Pré-Requisitos</h4>
                                 <ul>
                                     <li>
-                                        Ter o jinja2 instalado (pip install jinja2)
+                                        Ter os pacotes instalados (pip install -r requirements.txt)
                                     </li>
-									<li>
-                                        Ter o dotenv instalado (pip install python-dotenv)
-                                    </li>
-									<br/>
                                     <br/>
                                     <li>
                                         Criar um arquivo ".env" na raiz do projeto com o seguinte conteúdo:
@@ -177,6 +193,11 @@
                                 <p>
                                     Dentro da raiz do projeto execute o seguinte comando: <br/>
                                     python3 -m Send_Mail_SMTP_Python
+                                </p>
+                                <h4>Executar os testes</h4>
+                                <p>
+                                    Dentro da raiz do projeto execute o seguinte comando: <br/>
+                                    pytest -c tests/pytest.ini
                                 </p>
 							</section>
 						</div>
